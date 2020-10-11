@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNET-DDNS", "CNET-DDNS.csproj", "{7279C5AD-1D85-4F32-86E7-A6D055C7F9AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7279C5AD-1D85-4F32-86E7-A6D055C7F9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7279C5AD-1D85-4F32-86E7-A6D055C7F9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7279C5AD-1D85-4F32-86E7-A6D055C7F9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7279C5AD-1D85-4F32-86E7-A6D055C7F9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54ADDDB8-104F-4D6F-B145-4A4225D187D5}
+	EndGlobalSection
+EndGlobal
