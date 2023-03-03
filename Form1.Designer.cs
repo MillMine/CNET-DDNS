@@ -35,7 +35,7 @@
             this.logTextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.showKeyButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.domainLabel = new System.Windows.Forms.Label();
             this.domainTextBox = new System.Windows.Forms.TextBox();
             this.saveButton = new System.Windows.Forms.Button();
             this.userLabel = new System.Windows.Forms.Label();
@@ -125,13 +125,13 @@
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPage2.Controls.Add(this.showKeyButton);
-            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.domainLabel);
             this.tabPage2.Controls.Add(this.domainTextBox);
-            this.tabPage2.Controls.Add(this.saveButton);
             this.tabPage2.Controls.Add(this.userLabel);
             this.tabPage2.Controls.Add(this.userNameTextBox);
             this.tabPage2.Controls.Add(this.keyLabel);
             this.tabPage2.Controls.Add(this.keyTextBox);
+            this.tabPage2.Controls.Add(this.saveButton);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(10);
@@ -150,19 +150,16 @@
             this.showKeyButton.UseVisualStyleBackColor = true;
             this.showKeyButton.Click += new System.EventHandler(this.showKeyButton_Click);
             // 
-            // label1
+            // domainLabel
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.domainLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(10, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "C*NET DDNS hostname";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.domainLabel.AutoSize = true;
+            this.domainLabel.Location = new System.Drawing.Point(10, 30);
+            this.domainLabel.Name = "domainLabel";
+            this.domainLabel.Size = new System.Drawing.Size(123, 13);
+            this.domainLabel.TabIndex = 0;
+            this.domainLabel.Text = "C*NET DDNS hostname";
             // 
             // domainTextBox
             // 
@@ -255,7 +252,7 @@
         private System.Windows.Forms.Button updateButton;
         private System.Windows.Forms.Button checkButton;
         private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label domainLabel;
         private System.Windows.Forms.TextBox domainTextBox;
         private System.Windows.Forms.Button showKeyButton;
         private System.Windows.Forms.Button aboutButton;
